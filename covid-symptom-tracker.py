@@ -51,6 +51,11 @@ def getResponse():
         answer = raw_input(question);
         validateResponse(answer, question)
 
+def printResponses():
+    print("Responses: ");
+    for response in responseArray:
+        print response
+
 def main ():
     print("\n***COVID-19 Symptom Tracker***");
     print("Welcome, use this app to track the COVID-19 symptoms \n")
@@ -58,8 +63,8 @@ def main ():
 
     getResponse();
 
-    print("You have " + str(numSymptoms) + " out of 13 COVID-19 symptoms.");
-    print("Responses: ");
-    print(responseArray);
+    print("\n You have " + str(numSymptoms) + " out of 13 COVID-19 symptoms.");
+
+    printResponses();
 
 main()
