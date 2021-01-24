@@ -10,3 +10,6 @@ This project was created as a project submission for TechTogether Hackathon (htt
 
 ## [Video Demo](https://youtu.be/hnE1htibyuU)
 https://youtu.be/hnE1htibyuU
+
+## DevPost Submission
+https://devpost.com/software/covid-19-symptom-tracker-2nw157#updates
